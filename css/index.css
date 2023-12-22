@@ -1,0 +1,268 @@
+	body{
+			width: 100%;
+			height: 450px;
+			padding:0;
+			margin: 0;
+		}
+		/*页头*/
+		.top{
+			margin: 0 auto;
+			width: 100%;
+			height: 450px;
+			position: relative;
+			overflow: hidden;
+		}
+		.top .one{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+			z-index: -1;
+		}
+		.top .one_tencent {
+			width: 400%;
+			height: 100%;
+			position: absolute;
+			left: 0px;		
+			bottom: 5%;
+			animation-name: move;
+			animation-duration: 4s;
+			animation-iteration-count: infinite;
+		
+		}
+		.top .one_tencent img{
+			width: 1370px;
+		}
+		@keyframes move {
+			0% {
+				left: 0px;
+			}
+			25% {
+				left: -100%;
+			}
+			50% {
+				left: -200%;
+			}
+			75% {
+				left: -300%;
+			}
+			100% {
+				left: -400%
+			}
+		}
+		.top .left{
+			width: 20%;
+			height: 250px;
+			float: left;
+			position: relative;
+		}
+		.top .left div{
+			position: absolute;
+			right: 10px;
+			opacity: 0.8;
+			width: 120px;
+			height: 60px;
+		}
+		.top .left div img{
+			width: 90px;
+			height: 50px;
+			border-radius: 4px;
+		}
+		.top .center{
+			width: 60%;
+			height: 250px;
+			float: left;
+			overflow: hidden;
+		}
+		.top .center .zuo{
+			width: 55%;
+			height: 250px;
+			float: left;
+			margin-left: 30px;
+		}
+		.top .center .zuo li{
+			font-size: 14px;
+			line-height: 30px;
+			float: left;
+			list-style: none;
+			margin-left: 10px;
+			color:black;
+		}
+		.top .center .zuo li:hover{
+			text-decoration: underline;
+		}
+		.top .center .you{
+			margin-top: 20px;
+			float: center;
+			border-radius: 48px;
+			height: 20px;
+			width: 200px;
+			opacity: 0.9;
+		}
+		.top .center .you:hover{
+			text-align: center;
+		}
+		.top .right {
+			float:right;
+			width: 20%;
+		}
+		.top .right p{
+			float: left;
+			margin-top: 20px;
+			margin-right: 10px;
+			font-size: 14px;
+			text-align: center;
+			opacity: 0.8;
+			
+		}
+		.top .right a{
+			line-height: 10px;
+			text-decoration: none;
+			color: black;	
+		}
+		.top .right a:hover { font-weight: bold;}
+		/*导航条*/
+		.nav{
+			margin: 0 auto;
+			width: 100%;
+			height: 100px;
+			background: #eee;
+			overflow: hidden;
+			opacity: 0.7;
+		}
+		.nav .left{
+			width: 20%;
+			float: left;
+		}
+		.nav .left ul{
+			text-align: right;
+		}
+		.nav .left ul li{
+			list-style: none;
+		}
+		.nav .left ul p{
+			font-size: 14px;
+		}
+		.nav .center{
+			width: 40%;
+			float: left;
+		}
+		.nav .center ul{
+			text-align: center;
+			text-indent: 250px;
+		}
+		.nav .center ul li{
+			list-style: none;
+		}
+		.nav .center ul p{
+			font-size: 14px;
+			text-align: center;
+		}
+		.nav .right{
+			width: 25%;
+			float: left;
+		}
+		.nav .right ul{
+			text-align: right;
+		}
+		.nav .right ul li{
+			list-style: none;
+		}
+		.nav .right ul p{
+			padding-left: 60px;
+			font-size: 14px;
+		}
+		/*.hot*/
+		.hot{
+			width: 100%;
+			height: 500px;
+			margin: 0 auto;
+			border: 4px solid #eee;
+		}
+		.hot h2{
+			text-indent: 120px;
+		}
+		.hot .left{
+			margin-left: 150px;
+			float: left;
+			width: 20%;
+			height: 60%;
+			border-top: 4px solid #eee;
+		}
+		.hot .left .book1{
+			margin: 0 auto;
+			width: 70%;
+			height: 80%;
+			background: #eee;
+		}
+		.hot .left .book1 .img{
+			width: 100%;
+			height: 100%;
+		}
+		.hot .left .book1 .img img{
+			width: 100%;
+			height: 100%;
+		}
+		.hot .left .book1 img:hover{
+			width: 110%;
+			height: 110%;
+		}
+		.hot .left .book p,.hot .left .book1 h3{
+			padding-top: 10px;
+			text-align: left;
+		}
+		.hot .left .jieshao{
+			display: -webkit-box;
+			-webkit-box-orient: vertical;
+			-webkit-line-clamp: 2;
+			overflow: hidden;
+		}
+		.hot .right{
+			float: left;
+			margin-left: 30px;
+			width: 60%;
+			height: 80%;
+			border: 4px solid #eee;
+		}
+		.hot .right ul{
+			margin: 0 auto;
+			margin-top: 20px;
+			width: 100%;
+			height: 100%;
+			background: white;
+			overflow:scroll;
+		}
+		.hot .right ul li{
+			padding-right: 50px;
+			float: left;
+			width: 140px;
+			height: 160px;
+			list-style: none;
+			padding-bottom: 60px;
+			
+		}
+		.hot .right ul li span{
+			width: 130px;
+			height: 150px;
+		}
+		.hot .right ul li img{
+			width: 110px;
+			height: 120px;
+		}
+		.hot .right ul li img:hover{
+			width: 111px;
+			height: 121px;
+		}
+		.hot .right ul li h4{
+			padding-top: 10px;
+		}
+		.hot .right ul li p{
+			font-size: 12px;
+		}
+		.bottom p{
+			text-align: center;
+		}
+		.bottom p:first-child{
+			font-size: 18px;
+			
+		}
